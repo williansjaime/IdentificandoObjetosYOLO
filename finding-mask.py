@@ -87,8 +87,8 @@ while True:
     # Implementing Mask with chosen colours from Track Bars to HSV Image
     # Defining lower bounds and upper bounds for thresholding
     mask = cv2.inRange(image_HSV,
-                       (min_blue, min_green, min_red),
-                       (max_blue, max_green, max_red))
+                (min_blue, min_green, min_red),
+                (max_blue, max_green, max_red))
 
     # Showing Binary Image with implemented Mask
     # Giving name to the window with Mask
@@ -114,6 +114,8 @@ print('max_blue, max_green, max_red = {0}, {1}, {2}'.format(max_blue, max_green,
 
 """
 Some comments
+min_blue, min_green, min_red = 21, 222, 69
+max_blue, max_green, max_red = 177, 255, 255
 
 HSV (hue, saturation, value) colour-space is a model
 that is very useful in segmenting objects based on the colour.
