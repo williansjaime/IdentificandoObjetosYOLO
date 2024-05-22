@@ -95,8 +95,8 @@ while True:
 
         # Drawing Bounding Box on the current BGR frame
         cv2.rectangle(frame_BGR, (x_min - 15, y_min - 15),
-                      (x_min + box_width + 15, y_min + box_height + 15),
-                      (0, 255, 0), 3)
+                    (x_min + box_width + 15, y_min + box_height + 15),
+                    (0, 255, 0), 3)
 
         # Preparing text for the Label
         label = 'Detected Object'
