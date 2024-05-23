@@ -1,0 +1,5 @@
+person
+laptop
+cup
+cellphone
+woman

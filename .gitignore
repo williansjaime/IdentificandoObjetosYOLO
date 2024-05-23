@@ -1,0 +1,38 @@
+# Ignorar vídeos
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Ignorar imagens grandes
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.gif
+
+# Ignorar diretórios específicos que contenham arquivos grandes
+videos/
+images/
+dataset/
+
+# Ignorar arquivos de configuração locais
+*.env
+.vscode/
+.idea/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos compilados
+*.pyc
+*.pyo
+__pycache__/
