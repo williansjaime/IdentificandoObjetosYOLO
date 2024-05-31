@@ -9,6 +9,8 @@
 
 # Ignorar imagens grandes
 *.png
+*.ppm
+*.zip
 *.jpg
 *.jpeg
 *.bmp
